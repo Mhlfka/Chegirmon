@@ -1,0 +1,54 @@
+.bottom-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(20px);
+  padding: 12px 24px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.icon-wrapper {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  color: #333; /* default fill color */
+}
+
+.icon-wrapper:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: currentColor; /* SVG ni color bilan boshqarish */
+}
+
+/* ACTIVE ICON — sabzi rang */
+.icon-wrapper.active {
+  color: rgba(247, 132, 24, 1);
+}
+
+/* Scroll visibility */
+.bottom-banner.hidden {
+  transform: translateY(100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.bottom-banner.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
