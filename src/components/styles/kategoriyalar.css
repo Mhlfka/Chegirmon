@@ -1,0 +1,28 @@
+.kategoriyalar {
+  display: flex;
+  gap: 16px;
+  background-color: #232339;
+  padding: 16px 24px;
+}
+
+.category-btn {
+  padding: 8px 20px;
+  border: 1px solid #f97316;
+  border-radius: 9999px;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  background-color: #f97316;
+  color: white;
+}
+
+.category-btn.active {
+  background-color: #f97316;
+  color: white;
+}
