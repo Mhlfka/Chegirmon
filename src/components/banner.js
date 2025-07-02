@@ -1,7 +1,7 @@
 // components/Banner/Banner.js
 import React from 'react';
-import './banner.css';
-import backgroundImage from '../../images/nike photo.svg';
+import './styles/bunner.css';
+import backgroundImage from './assets/images/nike photo.svg';
 
 const Banner = () => {
   return (

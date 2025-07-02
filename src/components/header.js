@@ -1,11 +1,11 @@
-import './header.css';
-import logo from '../../images/logo.svg';
-import search from '../../images/search.svg';
-import heart from '../../images/heart.svg';
-import bell from '../../images/bell.svg';
-import moon from '../../images/moon.svg';
-import globe from '../../images/global.svg';
-import profile from '../../images/Ellipse 1.svg';
+import './styles/header.css';
+import logo from './assets/images/logo.svg';
+import search from './assets/images/search.svg';
+import heart from './assets/images/heart.svg';
+import bell from './assets/images/bell.svg';
+import moon from './assets/images/moon.svg';
+import globe from './assets/images/global.svg';
+import profile from './assets/images/Ellipse 1.svg';
 
 const Header = () => {
   return (

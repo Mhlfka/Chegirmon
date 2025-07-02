@@ -1,8 +1,8 @@
 
 import './App.css';
-import Header from './components/Header/header';
-import Karusel from './components/Karusel/karusel';
-import Kategoriyalar from './components/Kategoriyalar/kategoriyalar';
+import Header from './components/header';
+import Karusel from './components/karusel';
+import Kategoriyalar from './components/kategoriyalar';
 
 
 function App() {

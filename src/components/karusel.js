@@ -1,9 +1,9 @@
 // karusel.js
 import React, { useState, useEffect } from 'react';
-import './karusel.css';
-import nikePhoto from '../../images/nike photo.svg';
-import buttonRight from '../../images/Button right.svg';
-import buttonLeft from '../../images/Button left.svg';
+import './styles/karusel.css';
+import nikePhoto from './assets/images/nike photo.svg';
+import buttonRight from './assets/images/Button right.svg';
+import buttonLeft from './assets/images/Button left.svg';
 
 const slides = [
   {

@@ -1,6 +1,6 @@
 // components/Kategoriyalar/kategoriyalar.js
 import React, { useState } from 'react';
-import './kategoriyalar.css';
+import './styles/kategoriyalar.css';
 
 const Kategoriyalar = () => {
   const categories = [
