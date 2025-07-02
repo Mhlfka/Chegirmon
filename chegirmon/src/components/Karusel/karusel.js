@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import './karusel.css';
 import nikePhoto from '../../images/nike photo.svg';
+import karusel2 from '../../images/karusel 2.svg';
+import karusel3 from '../../images/karusel 3.svg';
 import buttonRight from '../../images/Button right.svg';
 import buttonLeft from '../../images/Button left.svg';
 
@@ -13,13 +15,13 @@ const slides = [
     subtitle: 'Terra Pro • Yana 3 kun davom etadi'
   },
   {
-    image: nikePhoto,
+    image: karusel2,
     discount: '30% chegirma',
     title: 'Sport kiyimlar aksiyasi\nFaqat bugun',
     subtitle: 'Nike Pro • 1 kun qolgan'
   },
   {
-    image: nikePhoto,
+    image: karusel3,
     discount: '15% arzon',
     title: 'Yangi krossovkalar koleksiyasi',
     subtitle: 'Adidas Ultra • Haftalik chegirma'

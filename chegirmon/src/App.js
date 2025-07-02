@@ -16,4 +16,19 @@ function App() {
   );
 }
 
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Header from './components/Header/Header';
+// import Home from '../../chegirmon/src/components/Home/home';
+
+// function App() {
+//   return (
+//     <Router>
+//       <Header />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         {/* boshqa sahifalar uchun route qo‘shish mumkin */}
+//       </Routes>
+//     </Router>
+//   );
+// }
 export default App;
