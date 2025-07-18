@@ -1,0 +1,343 @@
+/* Asosiy sahifa */
+.settings-page {
+  background-color: #232339;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.settings-container {
+  max-width: 1376px;
+  width: 100%;
+  padding: 32px;
+}
+
+/* Sarlavha */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.title-left {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+/* Bo'lim sarlavhasi */
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 24px 0 12px;
+}
+
+/* Subtitle for settings */
+.subtitle {
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+/* --- TIL TANLASH QISMI --- */
+.language-container {
+  width: 100%;
+  min-height: 80px;
+  border: 1.5px solid #413b36;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 24px 10px 24px;
+  background-color: #232339;
+  margin-bottom: 24px;
+}
+
+.language-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+  margin-left: 4px;
+}
+
+.language-flags {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.language-item {
+  width: 437px;
+  height: 48px;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, border 0.2s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.language-item:hover {
+  background-color: #f78418;
+  border: 1px solid #413b36;
+}
+
+.flag-item {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #413b36;
+  border-radius: 8px;
+  padding: 4px 0;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s;
+  height: 40px;
+  margin: 0 8px;
+}
+
+.flag-item.active {
+  background: #f78418;
+  border: 1.5px solid #f78418;
+}
+
+.flag-item:hover {
+  background: #2d2d4d;
+  border: 1.5px solid #f78418;
+}
+
+.flag-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* --- XABARLAR / MAVZU VA HOKAZO --- */
+.item-group {
+  width: 1376px;
+  border: none;
+  border-radius: 10px;
+  background-color: #232339;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease, border 0.2s ease;
+  cursor: pointer;
+  border: 1px solid #413b36;
+  background-color: #232339;
+  box-shadow: none;
+  position: relative;
+}
+
+.item:hover {
+  box-shadow: 0 4px 16px 0 rgba(247, 132, 24, 0.15);
+  border: 1.5px solid #f78418;
+  background-color: #232339;
+}
+
+.item span {
+  font-size: 16px;
+}
+
+/* --- LOCK ON/OFF --- */
+/* .lock-toggle {
+  width: 1376px;
+  height: 94px;
+  border: 1px solid #413B36;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 32px;
+  background-color: #232339;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+} */
+
+.lock-toggle {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.lock-toggle img {
+  width: 36px;
+  height: auto;
+  margin-right: 0;
+}
+
+/* --- Ijtimoiy tarmoqlar va QR --- */
+.social-qr {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  width: 1102px;
+}
+
+.social-qr .item {
+  flex: 1 1 auto;
+  min-width: 100px;
+}
+
+.social-qr-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1102px;
+  height: 130px;
+  gap: 16px;
+  margin: 0 auto 32px auto;
+}
+
+.social-group {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.social-group-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid #413b36;
+  border-radius: 10px;
+  background-color: #232339;
+  width: fit-content;
+  height: 100%;
+  padding: 16px 24px;
+}
+
+.qr-group {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+}
+
+.qr-group-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #413b36;
+  border-radius: 10px;
+  background-color: #232339;
+  width: 180px;
+  height: 100%;
+  padding: 16px 0;
+  gap: 8px;
+}
+
+.qr-group .item {
+  min-width: 100px;
+}
+
+.qr-item img {
+  width: 64px;
+  height: 64px;
+}
+
+.qr-label {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* --- Promo Vertical Box --- */
+.promo-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto 32px auto;
+}
+
+.promo-vertical-box {
+  display: flex;
+  flex-direction: column;
+  width: 543px;
+  height: 130px;
+  border: 1px solid #413b36;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #232339;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.promo-title,
+.promo-download-text {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.promo-social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo-social-icons .icon,
+.promo-qr .icon {
+  width: 24px;
+  height: 24px;
+  transition: none;
+}
+
+.promo-download-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  justify-content: center;
+}
+
+.promo-download-text {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.promo-qr img {
+  width: 48px;
+  height: 48px;
+}
